@@ -14,6 +14,7 @@
 		ADB2FD952A72D8F6002032CD /* BLE_scannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2FD942A72D8F6002032CD /* BLE_scannerTests.swift */; };
 		ADB2FD9F2A72D8F6002032CD /* BLE_scannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2FD9E2A72D8F6002032CD /* BLE_scannerUITests.swift */; };
 		ADB2FDA12A72D8F6002032CD /* BLE_scannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2FDA02A72D8F6002032CD /* BLE_scannerUITestsLaunchTests.swift */; };
+		ADB2FDB02A72DBC3002032CD /* BluetoothScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2FDAF2A72DBC3002032CD /* BluetoothScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ADB2FD9A2A72D8F6002032CD /* BLE_scannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLE_scannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB2FD9E2A72D8F6002032CD /* BLE_scannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_scannerUITests.swift; sourceTree = "<group>"; };
 		ADB2FDA02A72D8F6002032CD /* BLE_scannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_scannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADB2FDAF2A72DBC3002032CD /* BluetoothScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				ADB2FD852A72D8F4002032CD /* ContentView.swift */,
 				ADB2FD872A72D8F6002032CD /* Assets.xcassets */,
 				ADB2FD892A72D8F6002032CD /* Preview Content */,
+				ADB2FDAF2A72DBC3002032CD /* BluetoothScanner.swift */,
 			);
 			path = BLE_scanner;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB2FDB02A72DBC3002032CD /* BluetoothScanner.swift in Sources */,
 				ADB2FD862A72D8F4002032CD /* ContentView.swift in Sources */,
 				ADB2FD842A72D8F4002032CD /* BLE_scannerApp.swift in Sources */,
 			);
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = 8N332RC9YN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Detect BLE Devices around";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_TEAM = 8N332RC9YN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Detect BLE Devices around";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
